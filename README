@@ -1,0 +1,19 @@
+.git/info/exclude contents:
+
+classes/
+lib/
+.settings/
+projects/html5/canvas/TTT/war/ttt/
+
+===============
+
+Projects use Eclipse, GWT and GPE heavily.
+Set a GIT_TOOLS classpath variable in Eclipse pointing to the root. 
+
+==========
+
+Projects:
+========
+
+TicTacToe using Html5 canvas.
+
