@@ -1,2 +1,2 @@
 Import the project into eclipse. 
-Copy the gwt-canvas.jar to the WEB-INF/lib dir
+Copy the gwt-canvas.jar from the tools dir to the WEB-INF/lib dir
