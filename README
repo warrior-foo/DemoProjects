@@ -4,6 +4,8 @@ classes/
 lib/
 .settings/
 projects/html5/canvas/TTT/war/ttt/
+projects/html5/canvas/TTT/.classpath
+projects/html5/canvas/TTT/.project
 
 ===============
 
@@ -15,5 +17,5 @@ Set a GIT_TOOLS classpath variable in Eclipse pointing to the root.
 Projects:
 ========
 
-TicTacToe using Html5 canvas.
-
+TicTacToe using Html5 canvas. In the dir, copy .project.reference to .project
+and .classpath.reference to .classpath. Import the project in Eclipse
