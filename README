@@ -6,7 +6,9 @@ lib/
 projects/html5/canvas/TTT/war/ttt/
 projects/html5/canvas/TTT/.classpath
 projects/html5/canvas/TTT/.project
-
+projects/algorithms/exactcover/.classpath
+projects/algorithms/exactcover/.project
+projects/algorithms/exactcover/bin/
 ===============
 
 Projects use Eclipse, GWT and GPE heavily.
@@ -17,5 +19,7 @@ Set a GIT_TOOLS classpath variable in Eclipse pointing to the root.
 Projects:
 ========
 
-TicTacToe using Html5 canvas. In the dir, copy .project.reference to .project
+- TicTacToe using Html5 canvas. In the dir, copy .project.reference to .project
 and .classpath.reference to .classpath. Import the project in Eclipse
+
+- Project exactcover has implementations of DancingLinks and a blockedTraffic game.
