@@ -1,18 +1,3 @@
-/*
- * Copyright 2010 Google Inc.
- * 
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- * 
- * http://www.apache.org/licenses/LICENSE-2.0
- * 
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
 package com.myproject.algorithm.exactcover;
 
 import java.util.ArrayList;
@@ -32,21 +17,6 @@ public class BacktrackTraffic {
     public static int ROWS = 6;
     public static int COLS = 6;
     public static int MAGIC_ROW = 2;
-
-    public class Element {
-	final Movement movement;
-	final int hsize;
-	final int vsize;
-	final String description;
-
-	public Element(Movement movement, int hsize, int vsize,
-		String description) {
-	    this.movement = movement;
-	    this.hsize = hsize;
-	    this.vsize = vsize;
-	    this.description = description;
-	}
-    }
 
     public static class BoardState {
 
@@ -420,13 +390,6 @@ public class BacktrackTraffic {
 
     public enum BlockType {
 	OB, EM, HL, VL, HC, VC, QC,
-    }
-
-    /**
-     * Movement type.
-     */
-    private enum Movement {
-	HORIZONTAL, VERTICAL, NONE,
     }
 
     final BoardState startState;
